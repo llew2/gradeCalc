@@ -1,5 +1,4 @@
-/* GONA CHANGE A BIT OF THIS
-  now this 
+/*
   Lawrence Lew
   pp6.cpp
 
