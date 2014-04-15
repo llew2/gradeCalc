@@ -10,6 +10,8 @@
   4/9/2014
 */
 
+// Sample Output is appended at the end of the file
+
 #include<iostream>
 #include<cmath>
 #include<cstdio>
@@ -289,3 +291,118 @@ void dispResult(double avg, double gradeRemain, double gradeFinished) {
        << (60 - avg)/gradeRemain * 100
        << "% in the remainder of your coursework.\n";           
 }
+
+
+/* Sample Output
+// Homework scores were entered individually while test and participation
+//   scores were entered via copy and paste.
+// The above comments were not part of the original code output.
+//   Everything else is.
+
+Hello! This is a grade calculator based on your coursework thus far! 
+
+First I will ask how your grade is distributed based on homework, tests, participation, and extra credit. 
+
+I will then ask you how many homeworks or tests or participation and extra credit you have. 
+
+Example Scenario: 
+  Example with 25% of final grade, 5 homeworks, 3 submitted, 
+	12 points for hw #1, 15 possible points for hw #1, 
+	80 points for hw #2, 100 possible points for hw #2, ... etc 
+
+Shortcut: 	%weight, 	#hwtotal, 	#submit 
+		Points obtained for #1, 	Points possible for #1, 
+
+Shortcut Example: Weight Total homesworks Submitted':  '25 5 3'
+		'Pts1 	Hw1 	Pts2 	Hw2': 
+		'12 	15 	80 	100' ... <pts> <possible> ... 
+
+How much percentage of your total grade is homework?: 25
+How many homeworks do you have?: 5
+How many have submitted so far?: 3
+What is your grade for homework #1: 12
+What is the total points for homework #1: 15
+
+For homework #1 : You entered 12 out of 15 points.
+
+What is your grade for homework #2: 80
+What is the total points for homework #2: 100
+
+For homework #2 : You entered 80 out of 100 points.
+
+What is your grade for homework #3: 90
+What is the total points for homework #3: 85
+
+For homework #3 : You entered 90 out of 85 points.
+
+Your total hw score is 182 out of a possible 200 with a weight of 25% of your final grade. 
+
+How much percentage of your total grade is test?: 50
+4
+2
+120
+150
+105
+150How many tests do you have?: How many have you taken so far?: What is your grade for test #1: What is the total points for test #1: 
+For test #1 : You entered 120 out of 150 points.
+
+What is your grade for test #2: What is the total points for test #2: 
+
+For test #2 : You entered 105 out of 150 points.
+
+Your total test score is 225 out of a possible 300 with a weight of 50% of your final grade. 
+
+How much percentage of your total grade is participation?: 25
+10
+6
+5
+10
+8
+10
+9
+10
+8
+10
+7
+10
+9
+10How many participations do you have?: How many have been given so far?: What is your grade for participation #1: What is the total points for participation #1: 
+For participation #1 : You entered 5 out of 10 points.
+
+What is your grade for participation #2: What is the total points for participation #2: 
+For participation #2 : You entered 8 out of 10 points.
+
+What is your grade for participation #3: What is the total points for participation #3: 
+For participation #3 : You entered 9 out of 10 points.
+
+What is your grade for participation #4: What is the total points for participation #4: 
+For participation #4 : You entered 8 out of 10 points.
+
+What is your grade for participation #5: What is the total points for participation #5: 
+For participation #5 : You entered 7 out of 10 points.
+
+What is your grade for participation #6: What is the total points for participation #6: 
+
+For participation #6 : You entered 9 out of 10 points.
+
+Your total participation score is 46 out of a possible 60 with a weight of 25% of your final grade. 
+
+Do you have any extra credit to add? (y/n) : y
+How much extra credit do you want to add? : 1
+Do you have any other extra to add? : n
+You have a total of 1 extra credit to add to your final score. 
+
+*******************************************
+You have completed 55% of your coursework. YAY!
+
+Your current grade is 81.6364.
+Based on that, your uncurved grade is a B!
+
+You still have 45% of your final grade left to go!
+
+You'll need: 
+45.1% for an A or an average of 100.222% in the remainder of your coursework.
+35.1% for a B or an average of 78% in the remainder of your coursework.
+25.1% for a C or an average of 55.7778% in the remainder of your coursework.
+15.1% for a D or an average of 33.5556% in the remainder of your coursework.
+*/
